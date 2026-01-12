@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-cypress-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:run:smoke": "npx cypress run --spec 'cypress/e2e/smoke/**/*'",
+    "cy:run:regression": "npx cypress run --spec 'cypress/e2e/regression/**/*'",
+    "lint": "eslint cypress/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^15.8.2",
+    "dotenv": "^17.2.3",
+    "eslint": "^9.39.2",
+    "eslint-plugin-cypress": "^5.2.1",
+    "eslint-plugin-prettier": "^5.5.4",
+    "mochawesome": "^7.1.4",
+    "prettier": "^3.7.4"
+  }
+}
